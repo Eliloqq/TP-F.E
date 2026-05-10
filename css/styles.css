@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 50%;
+}
+
+.grid-estilo {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(200px, 1fr));
+  gap: 20px;
+}
+body {
+  font-family: "montserrat", "sans-serif";
+  font-size: 1.6rem;
+  background: rgba(32, 88, 102, 0.822);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.75rem;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 3rem 0;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+p {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.6rem;
+  border-radius: 1rem;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 57, 71);
+  color: rgb(180, 248, 248);
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 5px;
+}
+
+.cabeza ul li a {
+  text-decoration: none;
+  font-size: 3rem;
+  display: flex;
+  padding: 2rem;
+  color: inherit;
+  align-items: center;
+  position: relative;
+}
+
+.cabeza img {
+  width: 8rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+.cabeza ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.card {
+  margin: 1.5rem;
+  background-color: rgb(16, 185, 228);
+  color: rgb(0, 0, 0);
+  width: 40rem;
+  border-radius: 0.5rem;
+  padding-bottom: 2rem;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 5px;
+}
+.card img {
+  width: 100%;
+}

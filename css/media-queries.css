@@ -1,0 +1,7 @@
+@media (max-width: 768) {
+  body {
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: aliceblue;
+  }
+}
