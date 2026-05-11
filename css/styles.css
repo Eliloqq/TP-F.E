@@ -53,6 +53,10 @@ h3 {
 p {
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .btn {
   border: none;
