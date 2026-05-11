@@ -70,7 +70,7 @@ footer {
   background-color: #151c38;
   color: #ff7a3d;
   width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 5px;
+  box-shadow: rgba(255, 255, 255, 0.7) 0px 2px 5px;
 }
 
 .cabeza ul li a {
@@ -81,12 +81,17 @@ footer {
   color: inherit;
   align-items: center;
   position: relative;
+  background-color: #0000003f;
+  margin: 2rem;
 }
 
 .cabeza img {
-  width: 8rem;
-  height: 5rem;
+  width: 12rem;
+  height: 7rem;
   margin: 2rem;
+  background-color: #0000003f;
+  border-radius: 2rem;
+  box-shadow: rgba(255, 94, 0, 0.3) 0.5rem 1rem 1rem;
 }
 
 .cabeza ul {
@@ -100,6 +105,7 @@ footer {
   font-size: 2rem;
   margin: auto;
   padding: 2rem 4rem;
+  box-shadow: rgba(255, 255, 255, 0.7) 2px 2px 5px;
 }
 
 .card {
@@ -111,7 +117,7 @@ footer {
   overflow: hidden;
   align-items: center;
   flex-direction: row;
-  box-shadow: rgba(0, 0, 0, 0.7) 0px 2px 5px;
+  box-shadow: rgba(255, 94, 0, 0.534) 2px 2px 5px;
   margin: 4rem;
 }
 .card img {
