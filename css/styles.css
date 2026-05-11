@@ -87,6 +87,7 @@ footer {
   position: relative;
   background-color: #0000003f;
   margin: 2rem;
+  font-weight: bold;
 }
 
 .cabeza img {
