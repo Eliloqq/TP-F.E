@@ -56,10 +56,14 @@ p {
 
 .btn {
   border: none;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: bold;
-  padding: 1.6rem;
-  border-radius: 1rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  justify-content: center;
+  margin-top: auto;
+  background-color: #ffffff;
+  color: #151c38;
 }
 
 header,
@@ -119,6 +123,9 @@ footer {
   flex-direction: row;
   box-shadow: rgba(255, 94, 0, 0.534) 2px 2px 5px;
   margin: 4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .card img {
   width: 100%;
@@ -132,4 +139,63 @@ footer p {
   gap: 3rem;
   font-size: 3rem;
   padding: 2rem;
+}
+.formulario {
+  background-color: #151c38;
+  margin-top: 12.5rem;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border-radius: 5rem;
+  box-shadow: rgba(255, 255, 255, 0.7) 2px 2px 5px;
+}
+.texto-formulario {
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+.btn-formulario {
+  border: none;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 1rem 0.5rem;
+  border-radius: 1rem;
+  justify-content: center;
+  margin-top: 5rem;
+  background-color: #ffffff;
+  color: #151c38;
+  width: 16rem;
+}
+input {
+  width: 40rem;
+  height: 5rem;
+  background-color: #ff7a3d;
+  color: #151c38;
+  font-weight: bold;
+  font-family: "montserrat", "sans-serif";
+  font-size: 3rem;
+  border: none;
+}
+textarea {
+  width: 40rem;
+  height: 10rem;
+  background-color: #ff7a3d;
+  color: #151c38;
+  font-weight: bold;
+  font-family: "montserrat", "sans-serif";
+  font-size: 3rem;
+  border: none;
+}
+.cabeza-formulario a {
+  text-decoration: none;
+  font-size: 3rem;
+  display: flex;
+  padding: 2rem;
+  color: inherit;
+  align-items: center;
+  background-color: #0000003f;
+  margin: 2rem;
 }

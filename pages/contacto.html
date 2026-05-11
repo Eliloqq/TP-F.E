@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="es">
-  <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,34 +13,42 @@
     <title>Contacto</title>
   </head>
   <body>
-    <header>
-      <h2 class="cabeza">Contacto</h2>
+    <header class="cabeza-formulario">
+      <h2 class="cabeza-formulario">
+        <a href="./pages/contacto.html">Contacto</a>
+      </h2>
+      <h2><a href="../index.html">Inicio</a></h2>
     </header>
     <main>
       <!-- modify this form HTML and place wherever you want your form -->
-      <form action="https://formspree.io/f/mvzvqraw" method="POST">
+      <form
+        action="https://formspree.io/f/mvzvqraw"
+        method="POST"
+        ,
+        class="formulario"
+      >
         <label>
-          Email:
+          <p class="texto-formulario">Email:</p>
           <input type="email" name="email" />
         </label>
-        <br>
-        <br>
         <label>
-          Tu nombre:
-          <input name="name"></input>
+          <p class="texto-formulario">Tu nombre:</p>
+          <input name="name" />
         </label>
-        <br>
-        <br>
         <label>
-          Tu mensaje:
+          <p class="texto-formulario">Tu mensaje:</p>
           <textarea name="message"></textarea>
         </label>
-        <br>
-        <br>
         <!-- your other form fields go here -->
-        <button type="submit">Enviar</button>
+        <button type="submit" , class="btn-formulario">Enviar</button>
       </form>
     </main>
-    <footer></footer>
+    <footer>
+      <p>&copy Todos los derechos reservados. 2026</p>
+      <div>
+        <img src="../img/talento tech.png" />
+        <img src="../img/Instagram_icon.png" />
+      </div>
+    </footer>
   </body>
 </html>
