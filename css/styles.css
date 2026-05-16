@@ -37,7 +37,7 @@ main {
 
 h1 {
   margin: 1rem;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.15;
   margin: 3rem 0;
@@ -92,6 +92,7 @@ footer {
   background-color: #0000003f;
   margin: 2rem;
   font-weight: bold;
+  box-shadow: rgba(255, 94, 0, 0.3) 0.5rem 1rem 1rem;
 }
 
 .cabeza img {
@@ -111,7 +112,7 @@ footer {
 
 .bienvenido {
   background-color: #151c38;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: auto;
   padding: 2rem 4rem;
   box-shadow: rgba(255, 255, 255, 0.7) 2px 2px 5px;
@@ -132,6 +133,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 .card img {
   width: 100%;
   height: 30rem;
@@ -160,7 +162,8 @@ footer p {
   font-size: 2.5rem;
   margin-top: 5rem;
   font-weight: bold;
-  padding: 1rem 2rem;
+  padding: 1rem 0rem;
+  text-align: left;
 }
 .btn-formulario {
   border: none;
@@ -193,14 +196,4 @@ textarea {
   font-family: "montserrat", "sans-serif";
   font-size: 3rem;
   border: none;
-}
-.cabeza-formulario a {
-  text-decoration: none;
-  font-size: 3rem;
-  display: flex;
-  padding: 2rem;
-  color: inherit;
-  align-items: center;
-  background-color: #0000003f;
-  margin: 2rem;
 }

@@ -1,7 +1,6 @@
 @media (max-width: 768) {
   body {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
-    background-color: aliceblue;
   }
 }
